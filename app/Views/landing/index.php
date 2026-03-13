@@ -44,10 +44,12 @@
                     <li><a href="#home" class="active">Home</a></li>
                     <li><a href="#tentang">Tentang</a></li>
                     <li><a href="#fitur">Fitur</a></li>
-                    <li><a href="#galeri">Galeri</a></li>
-                    <li><a href="#tim">Tim</a></li>
-                    <li><a href="#harga">Harga</a></li>
+                    <li><a href="#cara_kerja">Cara Kerja</a></li>
+                    <li><a href="#kategori">Kategori</a></li>
+                    <li><a href="#mitra">Mitra</a></li>
+                    <li><a href="#paket">Paket</a></li>
                     <li><a href="#faq">FAQ</a></li>
+                    <li><a href="https://news.zonajasa.com/">Berita</a></li>
                     <li><a href="#kontak">Kontak</a></li>
                 </ul>
                 <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
@@ -72,7 +74,7 @@
                         <h1>Bingung Cari Jasa Terpercaya? <span>ZonaJasa</span> Solusinya</h1>
                         <p>Temukan tukang, teknisi, dan jasa profesional terdekat dengan rating terbaik, harga transparan, dan booking instan.</p>
                         <div class="d-flex">
-                            <a href="#about" class="btn-get-started">Get Started</a>
+                            <a href="#about" class="btn-get-started">Jelajahi</a>
                             <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
                         </div>
                     </div>
@@ -169,84 +171,84 @@
 
                     <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="100">
                         <div class="features-item">
-                            <i class="bi bi-search" style="color: #ffbb2c;"></i>
+                            <i class="bi bi-search"></i>
                             <h3><a href="" class="stretched-link">Cari Jasa</a></h3>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="200">
                         <div class="features-item">
-                            <i class="bi bi-person-check" style="color: #5578ff;"></i>
+                            <i class="bi bi-person-check"></i>
                             <h3><a href="" class="stretched-link">Penyedia Terpercaya</a></h3>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="300">
                         <div class="features-item">
-                            <i class="bi bi-grid" style="color: #e80368;"></i>
+                            <i class="bi bi-grid"></i>
                             <h3><a href="" class="stretched-link">Banyak Kategori</a></h3>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="400">
                         <div class="features-item">
-                            <i class="bi bi-chat-dots" style="color: #e361ff;"></i>
+                            <i class="bi bi-chat-dots"></i>
                             <h3><a href="" class="stretched-link">Chat Langsung</a></h3>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="500">
                         <div class="features-item">
-                            <i class="bi bi-star" style="color: #47aeff;"></i>
+                            <i class="bi bi-star"></i>
                             <h3><a href="" class="stretched-link">Rating & Review</a></h3>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="600">
                         <div class="features-item">
-                            <i class="bi bi-clock" style="color: #ffa76e;"></i>
+                            <i class="bi bi-clock"></i>
                             <h3><a href="" class="stretched-link">Respon Cepat</a></h3>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="700">
                         <div class="features-item">
-                            <i class="bi bi-shield-check" style="color: #11dbcf;"></i>
+                            <i class="bi bi-shield-check"></i>
                             <h3><a href="" class="stretched-link">Aman & Terpercaya</a></h3>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="800">
                         <div class="features-item">
-                            <i class="bi bi-phone" style="color: #4233ff;"></i>
+                            <i class="bi bi-phone"></i>
                             <h3><a href="" class="stretched-link">Mobile Friendly</a></h3>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="900">
                         <div class="features-item">
-                            <i class="bi bi-briefcase" style="color: #b2904f;"></i>
+                            <i class="bi bi-briefcase"></i>
                             <h3><a href="" class="stretched-link">Jasa Profesional</a></h3>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="1000">
                         <div class="features-item">
-                            <i class="bi bi-geo-alt" style="color: #b20969;"></i>
+                            <i class="bi bi-geo-alt"></i>
                             <h3><a href="" class="stretched-link">Lokasi Terdekat</a></h3>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="1100">
                         <div class="features-item">
-                            <i class="bi bi-lightning-charge" style="color: #ff5828;"></i>
+                            <i class="bi bi-lightning-charge"></i>
                             <h3><a href="" class="stretched-link">Proses Cepat</a></h3>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="1200">
                         <div class="features-item">
-                            <i class="bi bi-people" style="color: #29cc61;"></i>
+                            <i class="bi bi-people"></i>
                             <h3><a href="" class="stretched-link">Banyak Pengguna</a></h3>
                         </div>
                     </div>
@@ -254,315 +256,255 @@
             </div>
         </section>
 
-        <!-- Stats Section -->
-        <section id="stats" class="stats section light-background">
-            <div class="container" data-aos="fade-up" data-aos-delay="100">
-                <div class="row gy-4">
-
-                    <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
-                        <i class="bi bi-emoji-smile"></i>
-                        <div class="stats-item">
-                            <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
-                            <p>Happy Clients</p>
-                        </div>
-                    </div><!-- End Stats Item -->
-
-                    <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
-                        <i class="bi bi-journal-richtext"></i>
-                        <div class="stats-item">
-                            <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="purecounter"></span>
-                            <p>Projects</p>
-                        </div>
-                    </div><!-- End Stats Item -->
-
-                    <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
-                        <i class="bi bi-headset"></i>
-                        <div class="stats-item">
-                            <span data-purecounter-start="0" data-purecounter-end="1463" data-purecounter-duration="1" class="purecounter"></span>
-                            <p>Hours Of Support</p>
-                        </div>
-                    </div><!-- End Stats Item -->
-
-                    <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
-                        <i class="bi bi-people"></i>
-                        <div class="stats-item">
-                            <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1" class="purecounter"></span>
-                            <p>Hard Workers</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Galeri Section -->
-        <section id="galeri" class="gallery section">
-            <div class="container section-title" data-aos="fade-up">
-                <h2>Galeri</h2>
-                <div><span>Galeri</span> <span class="description-title">ZonaJasa</span></div>
-            </div>
-
-            <div class="container" data-aos="fade-up" data-aos-delay="100">
-                <div class="row g-0">
-                    <div class="col-lg-3 col-md-4">
-                        <div class="gallery-item">
-                            <a href="<?= base_url('assets/img/gallery/gallery-1.jpg') ?>" class="glightbox" data-gallery="images-gallery">
-                                <img src="<?= base_url('assets/img/gallery/gallery-1.jpg') ?>" alt="" class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-4">
-                        <div class="gallery-item">
-                            <a href="<?= base_url('assets/img/gallery/gallery-2.jpg') ?>" class="glightbox" data-gallery="images-gallery">
-                                <img src="<?= base_url('assets/img/gallery/gallery-2.jpg') ?>" alt="" class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-4">
-                        <div class="gallery-item">
-                            <a href="<?= base_url('assets/img/gallery/gallery-3.jpg') ?>" class="glightbox" data-gallery="images-gallery">
-                                <img src="<?= base_url('assets/img/gallery/gallery-3.jpg') ?>" alt="" class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-4">
-                        <div class="gallery-item">
-                            <a href="<?= base_url('assets/img/gallery/gallery-4.jpg') ?>" class="glightbox" data-gallery="images-gallery">
-                                <img src="<?= base_url('assets/img/gallery/gallery-4.jpg') ?>" alt="" class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-4">
-                        <div class="gallery-item">
-                            <a href="<?= base_url('assets/img/gallery/gallery-5.jpg') ?>" class="glightbox" data-gallery="images-gallery">
-                                <img src="<?= base_url('assets/img/gallery/gallery-5.jpg') ?>" alt="" class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-4">
-                        <div class="gallery-item">
-                            <a href="<?= base_url('assets/img/gallery/gallery-6.jpg') ?>" class="glightbox" data-gallery="images-gallery">
-                                <img src="<?= base_url('assets/img/gallery/gallery-6.jpg') ?>" alt="" class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-4">
-                        <div class="gallery-item">
-                            <a href="<?= base_url('assets/img/gallery/gallery-7.jpg') ?>" class="glightbox" data-gallery="images-gallery">
-                                <img src="<?= base_url('assets/img/gallery/gallery-7.jpg') ?>" alt="" class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-4">
-                        <div class="gallery-item">
-                            <a href="<?= base_url('assets/img/gallery/gallery-8.jpg') ?>" class="glightbox" data-gallery="images-gallery">
-                                <img src="<?= base_url('assets/img/gallery/gallery-8.jpg') ?>" alt="" class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-
-        <!-- Testimonials Section -->
-        <section id="testimonials" class="testimonials section dark-background">
-            <img src="<?= base_url('assets/img/testimonials-bg.jpg') ?>" class="testimonials-bg" alt="">
-            <div class="container" data-aos="fade-up" data-aos-delay="100">
-                <div class="swiper init-swiper">
-                    <div class="swiper-wrapper">
-
-                        <!-- Testimoni 1 -->
-                        <div class="swiper-slide">
-                            <div class="testimonial-item">
-                                <img src="<?= base_url('assets/img/testimonials/testimonials-1.jpg') ?>" class="testimonial-img" alt="">
-                                <h3>Andi Pratama</h3>
-                                <h4>Pelanggan</h4>
-                                <div class="stars">
-                                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                                    <i class="bi bi-star-fill"></i>
-                                </div>
-                                <p>
-                                    <i class="bi bi-quote quote-icon-left"></i>
-                                    <span>
-                                        ZonaJasa sangat membantu saya menemukan jasa perbaikan rumah dengan cepat.
-                                        Penyedia jasanya profesional dan responsnya juga cepat.
-                                    </span>
-                                    <i class="bi bi-quote quote-icon-right"></i>
-                                </p>
-                            </div>
-                        </div>
-
-                        <!-- Testimoni 2 -->
-                        <div class="swiper-slide">
-                            <div class="testimonial-item">
-                                <img src="<?= base_url('assets/img/testimonials/testimonials-2.jpg') ?>" class="testimonial-img" alt="">
-                                <h3>Siti Rahma</h3>
-                                <h4>Pengguna Layanan</h4>
-                                <div class="stars">
-                                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                                    <i class="bi bi-star-fill"></i>
-                                </div>
-                                <p>
-                                    <i class="bi bi-quote quote-icon-left"></i>
-                                    <span>
-                                        Saya sangat terbantu dengan ZonaJasa karena bisa menemukan
-                                        penyedia jasa desain dengan mudah dan hasilnya memuaskan.
-                                    </span>
-                                    <i class="bi bi-quote quote-icon-right"></i>
-                                </p>
-                            </div>
-                        </div>
-
-                        <!-- Testimoni 3 -->
-                        <div class="swiper-slide">
-                            <div class="testimonial-item">
-                                <img src="<?= base_url('assets/img/testimonials/testimonials-3.jpg') ?>" class="testimonial-img" alt="">
-                                <h3>Budi Santoso</h3>
-                                <h4>Penyedia Jasa</h4>
-                                <div class="stars">
-                                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                                    <i class="bi bi-star-fill"></i>
-                                </div>
-                                <p>
-                                    <i class="bi bi-quote quote-icon-left"></i>
-                                    <span>
-                                        Sejak bergabung dengan ZonaJasa, saya mendapatkan lebih banyak
-                                        pelanggan yang membutuhkan layanan saya.
-                                    </span>
-                                    <i class="bi bi-quote quote-icon-right"></i>
-                                </p>
-                            </div>
-                        </div>
-
-                        <!-- Testimoni 4 -->
-                        <div class="swiper-slide">
-                            <div class="testimonial-item">
-                                <img src="<?= base_url('assets/img/testimonials/testimonials-4.jpg') ?>" class="testimonial-img" alt="">
-                                <h3>Rina Putri</h3>
-                                <h4>Pelanggan</h4>
-                                <div class="stars">
-                                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                                    <i class="bi bi-star-fill"></i>
-                                </div>
-                                <p>
-                                    <i class="bi bi-quote quote-icon-left"></i>
-                                    <span>
-                                        Platform ini sangat mudah digunakan. Saya bisa langsung
-                                        menghubungi penyedia jasa tanpa proses yang rumit.
-                                    </span>
-                                    <i class="bi bi-quote quote-icon-right"></i>
-                                </p>
-                            </div>
-                        </div>
-
-                        <!-- Testimoni 5 -->
-                        <div class="swiper-slide">
-                            <div class="testimonial-item">
-                                <img src="<?= base_url('assets/img/testimonials/testimonials-5.jpg') ?>" class="testimonial-img" alt="">
-                                <h3>Dimas Saputra</h3>
-                                <h4>Freelancer</h4>
-                                <div class="stars">
-                                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                                    <i class="bi bi-star-fill"></i>
-                                </div>
-                                <p>
-                                    <i class="bi bi-quote quote-icon-left"></i>
-                                    <span>
-                                        ZonaJasa membantu saya mempromosikan layanan saya
-                                        dan menjangkau lebih banyak pelanggan.
-                                    </span>
-                                    <i class="bi bi-quote quote-icon-right"></i>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-pagination"></div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Tim Section -->
-        <section id="tim" class="team section">>
+        <!-- Cara Kerja Section -->
+        <section id="cara_kerja" class="cara-kerja section">
 
             <div class="container section-title" data-aos="fade-up">
-                <h2>Tim</h2>
-                <div><span>Tim</span> <span class="description-title">ZonaJasa</span></div>
+                <h2>Cara Kerja</h2>
+                <div><span>Cara Kerja</span> <span class="description-title">ZonaJasa</span></div>
+                <p>Temukan dan gunakan layanan jasa dengan langkah yang mudah.</p>
             </div>
 
             <div class="container">
-                <div class="row gy-5">
+
+                <div class="row text-center gy-4">
+
+                    <!-- Step 1 -->
+                    <div class="col-lg-3 col-md-6" data-aos="fade-up">
+                        <div class="step-box">
+                            <div class="step-icon">
+                                <i class="bi bi-search"></i>
+                            </div>
+                            <h4>Cari Jasa</h4>
+                            <p>Temukan berbagai layanan jasa sesuai kebutuhan Anda.</p>
+                        </div>
+                    </div>
+
+                    <!-- Step 2 -->
                     <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
-                        <div class="member">
-                            <div class="pic"><img src="<?= base_url('assets/img/team/team-1.jpg') ?>" class="img-fluid" alt=""></div>
-                            <div class="member-info">
-                                <h4>Akbar</h4>
-                                <span>IT Director</span>
-                                <div class="social">
-                                    <a href=""><i class="bi bi-twitter-x"></i></a>
-                                    <a href=""><i class="bi bi-facebook"></i></a>
-                                    <a href=""><i class="bi bi-instagram"></i></a>
-                                    <a href=""><i class="bi bi-linkedin"></i></a>
-                                </div>
+                        <div class="step-box">
+                            <div class="step-icon">
+                                <i class="bi bi-person-check"></i>
                             </div>
+                            <h4>Pilih Penyedia</h4>
+                            <p>Pilih penyedia jasa terbaik berdasarkan profil dan ulasan.</p>
                         </div>
                     </div>
 
+                    <!-- Step 3 -->
                     <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
-                        <div class="member">
-                            <div class="pic"><img src="<?= base_url('assets/img/team/team-1.jpg') ?>" class="img-fluid" alt=""></div>
-                            <div class="member-info">
-                                <h4>Muh. Syamsul Marif</h4>
-                                <span>BE Developer</span>
-                                <div class="social">
-                                    <a href=""><i class="bi bi-twitter-x"></i></a>
-                                    <a href=""><i class="bi bi-facebook"></i></a>
-                                    <a href=""><i class="bi bi-instagram"></i></a>
-                                    <a href=""><i class="bi bi-linkedin"></i></a>
-                                </div>
+                        <div class="step-box">
+                            <div class="step-icon">
+                                <i class="bi bi-chat-dots"></i>
                             </div>
+                            <h4>Hubungi</h4>
+                            <p>Diskusikan kebutuhan pekerjaan dengan penyedia jasa.</p>
                         </div>
                     </div>
 
-                    <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
-                        <div class="member">
-                            <div class="pic"><img src="<?= base_url('assets/img/team/team-2.jpg') ?>" class="img-fluid" alt=""></div>
-                            <div class="member-info">
-                                <h4>Miftahul Jannah</h4>
-                                <span>FE Developer</span>
-                                <div class="social">
-                                    <a href=""><i class="bi bi-twitter-x"></i></a>
-                                    <a href=""><i class="bi bi-facebook"></i></a>
-                                    <a href=""><i class="bi bi-instagram"></i></a>
-                                    <a href=""><i class="bi bi-linkedin"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
+                    <!-- Step 4 -->
                     <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
-                        <div class="member">
-                            <div class="pic"><img src="<?= base_url('assets/img/team/team-3.jpg') ?>" class="img-fluid" alt=""></div>
-                            <div class="member-info">
-                                <h4>Yoga Pratrian</h4>
-                                <span>IT Support</span>
-                                <div class="social">
-                                    <a href=""><i class="bi bi-twitter-x"></i></a>
-                                    <a href=""><i class="bi bi-facebook"></i></a>
-                                    <a href=""><i class="bi bi-instagram"></i></a>
-                                    <a href=""><i class="bi bi-linkedin"></i></a>
+                        <div class="step-box">
+                            <div class="step-icon">
+                                <i class="bi bi-check-circle"></i>
+                            </div>
+                            <h4>Selesai</h4>
+                            <p>Pekerjaan selesai dan Anda bisa memberi ulasan.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Kategori Section -->
+        <section id="kategori" class="kategori section light-background">
+
+            <div class="container section-title" data-aos="fade-up">
+                <h2>Kategori</h2>
+                <div><span>Kategori</span> <span class="description-title">ZonaJasa</span></div>
+                <p>Pilih kategori layanan yang Anda butuhkan dengan mudah.</p>
+            </div>
+
+            <div class="container">
+                <div class="row gy-4">
+
+                    <div class="col-lg-3 col-md-4 col-6">
+                        <div class="kategori-box text-center">
+                            <i class="bi bi-house-door"></i>
+                            <h4>Perbaikan Rumah</h4>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 col-6">
+                        <div class="kategori-box text-center">
+                            <i class="bi bi-tools"></i>
+                            <h4>Teknisi</h4>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 col-6">
+                        <div class="kategori-box text-center">
+                            <i class="bi bi-brush"></i>
+                            <h4>Desain Grafis</h4>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 col-6">
+                        <div class="kategori-box text-center">
+                            <i class="bi bi-code-slash"></i>
+                            <h4>Web Development</h4>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 col-6">
+                        <div class="kategori-box text-center">
+                            <i class="bi bi-camera"></i>
+                            <h4>Fotografi</h4>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 col-6">
+                        <div class="kategori-box text-center">
+                            <i class="bi bi-car-front"></i>
+                            <h4>Servis Kendaraan</h4>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 col-6">
+                        <div class="kategori-box text-center">
+                            <i class="bi bi-megaphone"></i>
+                            <h4>Digital Marketing</h4>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 col-6">
+                        <div class="kategori-box text-center">
+                            <i class="bi bi-person-workspace"></i>
+                            <h4>Konsultasi</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Mitra Section -->
+        <section id="mitra" class="mitra section">
+
+            <div class="container section-title" data-aos="fade-up">
+                <h2>Mitra</h2>
+                <div><span>Penyedia</span> <span class="description-title">Jasa</span></div>
+                <p>Penyedia jasa terpercaya yang siap membantu kebutuhan Anda.</p>
+            </div>
+
+            <div class="container">
+                <div class="row gy-4">
+
+                    <!-- Mitra 1 -->
+                    <div class="col-lg-3 col-md-6">
+                        <div class="mitra-card">
+
+                            <div class="mitra-img">
+                                <img src="<?= base_url('assets/img/team/team-1.jpg') ?>" class="img-fluid" alt="">
+                                <span class="badge bg-warning mitra-badge">Top Mitra</span>
+                            </div>
+
+                            <div class="mitra-info">
+                                <h4>Akbar Service</h4>
+                                <p class="kategori">Teknisi AC</p>
+
+                                <div class="mitra-meta">
+                                    <span class="rating">⭐ 4.9</span>
+                                    <span class="lokasi">📍 Baruga</span>
                                 </div>
+
+                                <div class="harga">
+                                    Mulai <strong>Rp100.000</strong>
+                                </div>
+
+                                <a href="#" class="btn btn-zonajasa btn-sm w-100 mt-2">Lihat Profil</a>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Mitra 2 -->
+                    <div class="col-lg-3 col-md-6">
+                        <div class="mitra-card">
+
+                            <div class="mitra-img">
+                                <img src="<?= base_url('assets/img/team/team-3.jpg') ?>" class="img-fluid" alt="">
+                            </div>
+
+                            <div class="mitra-info">
+                                <h4>Syamsul Web</h4>
+                                <p class="kategori">Web Developer</p>
+
+                                <div class="mitra-meta">
+                                    <span class="rating">⭐ 4.8</span>
+                                    <span class="lokasi">📍 Poasia</span>
+                                </div>
+
+                                <div class="harga">
+                                    Mulai <strong>Rp500.000</strong>
+                                </div>
+
+                                <a href="#" class="btn btn-zonajasa btn-sm w-100 mt-2">Lihat Profil</a>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Mitra 3 -->
+                    <div class="col-lg-3 col-md-6">
+                        <div class="mitra-card">
+
+                            <div class="mitra-img">
+                                <img src="<?= base_url('assets/img/team/team-2.jpg') ?>" class="img-fluid" alt="">
+                            </div>
+
+                            <div class="mitra-info">
+                                <h4>Jannah Design</h4>
+                                <p class="kategori">Desain Grafis</p>
+
+                                <div class="mitra-meta">
+                                    <span class="rating">⭐ 4.7</span>
+                                    <span class="lokasi">📍 Poasia</span>
+                                </div>
+
+                                <div class="harga">
+                                    Mulai <strong>Rp150.000</strong>
+                                </div>
+
+                                <a href="#" class="btn btn-zonajasa btn-sm w-100 mt-2">Lihat Profil</a>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Mitra 4 -->
+                    <div class="col-lg-3 col-md-6">
+                        <div class="mitra-card">
+
+                            <div class="mitra-img">
+                                <img src="<?= base_url('assets/img/team/team-3.jpg') ?>" class="img-fluid" alt="">
+                            </div>
+
+                            <div class="mitra-info">
+                                <h4>Yoga Tech</h4>
+                                <p class="kategori">Tukang Kebun</p>
+
+                                <div class="mitra-meta">
+                                    <span class="rating">⭐ 4.6</span>
+                                    <span class="lokasi">📍 Andonohu</span>
+                                </div>
+
+                                <div class="harga">
+                                    Mulai <strong>Rp200.000</strong>
+                                </div>
+
+                                <a href="#" class="btn btn-zonajasa btn-sm w-100 mt-2">Lihat Profil</a>
+
                             </div>
                         </div>
                     </div>
@@ -570,10 +512,10 @@
             </div>
         </section>
 
-        <!-- Pricing Section -->
-        <section id="harga" class="pricing section">
+        <!-- Paket Section -->
+        <section id="paket" class="pricing section">
             <div class="container section-title" data-aos="fade-up">
-                <h2>Harga</h2>
+                <h2>Paket</h2>
                 <div><span>Paket</span> <span class="description-title">ZonaJasa</span></div>
             </div>
             <div class="container">
@@ -723,7 +665,7 @@
             <!-- Section Title -->
             <div class="container section-title" data-aos="fade-up">
                 <h2>kontak</h2>
-                <div><span>Kontak</span> <span class="description-title">Kami</span></div>
+                <div><span>Kontak</span> <span class="description-title">ZonaJasa</span></div>
             </div><!-- End Section Title -->
 
             <div class="container" data-aos="fade" data-aos-delay="100">
