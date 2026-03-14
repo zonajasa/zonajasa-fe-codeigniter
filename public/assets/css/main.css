@@ -34,7 +34,7 @@
   --nav-mobile-background-color: #ffffff; /* Used as the background color for mobile navigation menu */
   --nav-dropdown-background-color: #ffffff; /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
   --nav-dropdown-color: #444444; /* Used for navigation links of the dropdown items in the navigation menu. */
-  --nav-dropdown-hover-color: #1acc8d; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
+  --nav-dropdown-hover-color: #040677; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
 }
 
 /* Color Presets - These classes override global colors when applied to any section or element, providing reuse of the sam color scheme. */
@@ -577,7 +577,7 @@ h6 {
   font-size: 16px;
   padding: 0 20px;
   margin: -7px -8px -7px 0;
-  background: var(--accent-color);
+  background: #040677;
   color: var(--contrast-color);
   transition: 0.3s;
   border-radius: 0 4px 4px 0;
@@ -646,7 +646,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 99999;
-  background-color: var(--accent-color);
+  background-color: #040677;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -838,7 +838,7 @@ section,
 
 .hero .btn-get-started {
   color: var(--contrast-color);
-  background: var(--accent-color);
+  background: #1A4BFF;
   font-family: var(--heading-font);
   font-weight: 400;
   font-size: 15px;
@@ -852,7 +852,7 @@ section,
 
 .hero .btn-get-started:hover {
   color: var(--contrast-color);
-  background: color-mix(in srgb, var(--accent-color), transparent 15%);
+  background: color-mix(in srgb, #1A4BFF, transparent 15%);
   box-shadow: 0 8px 28px rgba(0, 0, 0, 0.1);
 }
 
@@ -865,7 +865,7 @@ section,
 }
 
 .hero .btn-watch-video i {
-  color: var(--accent-color);
+  color: #fff;
   font-size: 32px;
   transition: 0.3s;
   line-height: 0;
@@ -873,11 +873,11 @@ section,
 }
 
 .hero .btn-watch-video:hover {
-  color: var(--accent-color);
+  color: #1A4BFF;
 }
 
 .hero .btn-watch-video:hover i {
-  color: color-mix(in srgb, var(--accent-color), transparent 15%);
+  color: color-mix(in srgb, #1A4BFF, transparent 15%);
 }
 
 .hero .animated {
@@ -1000,7 +1000,7 @@ section,
 }
 
 .about .content .read-more {
-  background: var(--accent-color);
+  background: #040677;
   color: var(--contrast-color);
   font-family: var(--heading-font);
   font-weight: 500;
@@ -1022,7 +1022,7 @@ section,
 }
 
 .about .content .read-more:hover {
-  background: color-mix(in srgb, var(--accent-color), transparent 20%);
+  background: #0d6efd, transparent 20%;
   padding-right: 19px;
 }
 
@@ -1049,8 +1049,8 @@ section,
   font-size: 32px;
   line-height: 0;
   transition: all 0.4s ease-out 0s;
-  background-color: color-mix(in srgb, var(--accent-color), transparent 95%);
-  color: var(--accent-color);
+  background-color: color-mix(#0d6efd, var(--accent-color), transparent 95%);
+  color: #040677;
 }
 
 .about .icon-box h3 {
@@ -1064,7 +1064,7 @@ section,
 }
 
 .about .icon-box:hover i {
-  background-color: var(--accent-color);
+  background-color: #040677;
   color: var(--contrast-color);
 }
 
@@ -1098,6 +1098,7 @@ section,
   font-size: 32px;
   padding-right: 10px;
   line-height: 0;
+  color: #040677;
 }
 
 .features .features-item h3 {
@@ -1114,11 +1115,11 @@ section,
 }
 
 .features .features-item:hover {
-  border-color: var(--accent-color);
+  border-color: #1A4BFF;
 }
 
 .features .features-item:hover h3 a {
-  color: var(--accent-color);
+  color: #1A4BFF;
 }
 
 /*--------------------------------------------------------------
@@ -1211,6 +1212,78 @@ section,
 
 .details .features-item p:last-child {
   margin-bottom: 0;
+}
+
+/*--------------------------------------------------------------
+# Cara Kerja Section
+--------------------------------------------------------------*/
+
+.step-box {
+  background: #fff;
+  padding: 30px 20px;
+  border-radius: 10px;
+  transition: 0.3s;
+  box-shadow: 0 0 20px rgba(0,0,0,0.05);
+}
+
+.step-icon {
+  width: 70px;
+  height: 70px;
+  margin: auto;
+  margin-bottom: 20px;
+  border-radius: 50%;
+  background: #040677;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.step-icon i {
+  font-size: 28px;
+  color: #fff;
+}
+
+.step-box h4 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.step-box p {
+  font-size: 14px;
+  color: #6c757d;
+}
+
+.step-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+/*--------------------------------------------------------------
+# Kategori Section
+--------------------------------------------------------------*/
+
+.kategori-box {
+  background: #fff;
+  padding: 30px 20px;
+  border-radius: 10px;
+  transition: 0.3s;
+  box-shadow: 0 0 20px rgba(0,0,0,0.05);
+}
+
+.kategori-box i {
+  font-size: 40px;
+  color: #040677;
+  margin-bottom: 15px;
+}
+
+.kategori-box h4 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.kategori-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
 }
 
 /*--------------------------------------------------------------
@@ -1352,6 +1425,80 @@ section,
 }
 
 /*--------------------------------------------------------------
+# Mitra Section
+--------------------------------------------------------------*/
+.mitra-card {
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0,0,0,0.05);
+  transition: 0.3s;
+}
+
+.mitra-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.mitra-img {
+  position: relative;
+}
+
+.mitra-img img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.mitra-badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.mitra-info {
+  padding: 15px;
+}
+
+.mitra-info h4 {
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.kategori {
+  font-size: 14px;
+  color: #6c757d;
+}
+
+.mitra-meta {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.rating {
+  color: #ffc107;
+}
+
+.harga {
+  margin-top: 8px;
+  font-size: 14px;
+}
+
+.btn-zonajasa {
+  background-color: #040677;
+  border-color: #040677;
+  color: #fff;
+}
+
+.btn-zonajasa:hover {
+  background-color: #03045c;
+  border-color: #03045c;
+  color: #fff;
+}
+
+/*--------------------------------------------------------------
 # Team Section
 --------------------------------------------------------------*/
 .team .member {
@@ -1438,7 +1585,7 @@ section,
 }
 
 .pricing h4 {
-  color: var(--accent-color);
+  color: #040677;
   font-size: 48px;
   font-weight: 700;
   font-family: var(--heading-font);
@@ -1475,7 +1622,7 @@ section,
 }
 
 .pricing .cta-btn:hover {
-  background: var(--accent-color);
+  background: #040677;
   color: var(--contrast-color);
   border-color: var(--accent-color);
 }
@@ -1499,7 +1646,7 @@ section,
 }
 
 .pricing ul i {
-  color: #059652;
+  color: #040677;
   font-size: 24px;
   padding-right: 3px;
 }
@@ -1524,7 +1671,7 @@ section,
   position: absolute;
   top: 15px;
   right: 15px;
-  background-color: var(--accent-color);
+  background-color: #040677;
   color: var(--contrast-color);
   padding: 4px 15px 6px 15px;
   margin: 0;
@@ -1534,9 +1681,9 @@ section,
 }
 
 .pricing .featured .cta-btn {
-  background: var(--accent-color);
+  background: #040677;
   color: var(--contrast-color);
-  border-color: var(--accent-color);
+  border-color: #040677;
 }
 
 @media (max-width: 992px) {
@@ -1599,12 +1746,12 @@ section,
 }
 
 .faq .faq-container .faq-item h3 span {
-  color: var(--accent-color);
+  color: #040677;
   padding-right: 5px;
 }
 
 .faq .faq-container .faq-item h3:hover {
-  color: var(--accent-color);
+  color: #040677;
 }
 
 .faq .faq-container .faq-item .faq-content {
@@ -1627,7 +1774,7 @@ section,
   font-size: 22px;
   line-height: 0;
   transition: 0.3s;
-  color: var(--accent-color);
+  color: #040677;
 }
 
 .faq .faq-container .faq-item .faq-toggle {
@@ -1645,7 +1792,7 @@ section,
 }
 
 .faq .faq-container .faq-active h3 {
-  color: var(--accent-color);
+  color: #040677;
 }
 
 .faq .faq-container .faq-active .faq-content {
@@ -1668,7 +1815,7 @@ section,
 }
 
 .contact .info-item i {
-  color: var(--accent-color);
+  color: #040677;
   background: color-mix(in srgb, var(--accent-color), transparent 92%);
   font-size: 20px;
   width: 44px;
@@ -1729,7 +1876,7 @@ section,
 
 .contact .php-email-form button[type=submit] {
   color: var(--contrast-color);
-  background: var(--accent-color);
+  background: #040677;
   border: 0;
   padding: 10px 30px;
   transition: 0.4s;
@@ -1743,6 +1890,5 @@ section,
 /*--------------------------------------------------------------
 # Starter Section Section
 --------------------------------------------------------------*/
-.starter-section {
+/* .starter-section
   /* Add your styles here */
-}
