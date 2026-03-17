@@ -21,8 +21,8 @@
 :root { 
   --background-color: #ffffff; /* Background color for the entire website, including individual sections */
   --default-color: #444444; /* Default color used for the majority of the text content across the entire website */
-  --heading-color: #040677; /* Color for headings, subheadings and title throughout the website */
-  --accent-color: #1acc8d; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
+  --heading-color: #ffffff; /* Color for headings, subheadings and title throughout the website */
+  --accent-color: #1A4BFF; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
   --surface-color: #ffffff; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
   --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
 }
@@ -30,11 +30,11 @@
 /* Nav Menu Colors - The following color variables are used specifically for the navigation menu. They are separate from the global colors to allow for more customization options */
 :root {
   --nav-color: #ffffff;  /* The default color of the main navmenu links */
-  --nav-hover-color: #1acc8d; /* Applied to main navmenu links when they are hovered over or active */
+  --nav-hover-color: #1A4BFF; /* Applied to main navmenu links when they are hovered over or active */
   --nav-mobile-background-color: #ffffff; /* Used as the background color for mobile navigation menu */
   --nav-dropdown-background-color: #ffffff; /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
   --nav-dropdown-color: #444444; /* Used for navigation links of the dropdown items in the navigation menu. */
-  --nav-dropdown-hover-color: #1acc8d; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
+  --nav-dropdown-hover-color: #040677; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
 }
 
 /* Color Presets - These classes override global colors when applied to any section or element, providing reuse of the sam color scheme. */
@@ -67,23 +67,22 @@ body {
 }
 
 a {
-  color: var(--accent-color);
+  color: #1A4BFF;
   text-decoration: none;
   transition: 0.3s;
 }
 
 a:hover {
-  color: color-mix(in srgb, var(--accent-color), transparent 25%);
+  color: color-mix(in srgb, #1A4BFF, transparent 25%);
   text-decoration: none;
 }
 
 h1,
 h2,
 h3,
-h4,
 h5,
 h6 {
-  color: var(--heading-color);
+  color: #040677;
   font-family: var(--heading-font);
 }
 
@@ -102,7 +101,7 @@ h6 {
 .php-email-form .sent-message {
   display: none;
   color: #ffffff;
-  background: #059652;
+  background: #1A4BFF;
   text-align: center;
   padding: 15px;
   margin-bottom: 24px;
@@ -124,7 +123,7 @@ h6 {
   width: 24px;
   height: 24px;
   margin: 0 10px -6px 0;
-  border: 3px solid var(--accent-color);
+  border: 3px solid #1A4BFF;
   border-top-color: var(--surface-color);
   animation: php-email-form-loading 1s linear infinite;
 }
@@ -166,7 +165,7 @@ h6 {
   font-size: 30px;
   margin: 0;
   font-weight: 700;
-  color: var(--heading-color);
+  color: #ffffff;
 }
 
 .scrolled .header {
@@ -372,12 +371,12 @@ h6 {
     justify-content: center;
     border-radius: 50%;
     transition: 0.3s;
-    background-color: color-mix(in srgb, var(--accent-color), transparent 90%);
+    background-color: color-mix(in srgb, #1A4BFF, transparent 90%);
   }
 
   .navmenu a i:hover,
   .navmenu a:focus i:hover {
-    background-color: var(--accent-color);
+    background-color: #1A4BFF;
     color: var(--contrast-color);
   }
 
@@ -389,7 +388,7 @@ h6 {
 
   .navmenu .active i,
   .navmenu .active:focus i {
-    background-color: var(--accent-color);
+    background-color: #1A4BFF;
     color: var(--contrast-color);
     transform: rotate(180deg);
   }
@@ -470,7 +469,7 @@ h6 {
   font-weight: 700;
   letter-spacing: 1px;
   font-family: var(--heading-font);
-  color: var(--heading-color);
+  color: #ffffff;
 }
 
 .footer .footer-about p {
@@ -493,8 +492,8 @@ h6 {
 }
 
 .footer .social-links a:hover {
-  color: var(--accent-color);
-  border-color: var(--accent-color);
+  color: #ffffff;
+  border-color: #1A4BFF;
 }
 
 .footer h4 {
@@ -537,7 +536,7 @@ h6 {
 }
 
 .footer .footer-links ul a:hover {
-  color: var(--accent-color);
+  color: #1A4BFF;
 }
 
 .footer .footer-contact p {
@@ -557,7 +556,7 @@ h6 {
 }
 
 .footer .footer-newsletter .newsletter-form:focus-within {
-  border-color: var(--accent-color);
+  border-color: #1A4BFF;
 }
 
 .footer .footer-newsletter .newsletter-form input[type=email] {
@@ -577,14 +576,14 @@ h6 {
   font-size: 16px;
   padding: 0 20px;
   margin: -7px -8px -7px 0;
-  background: var(--accent-color);
+  background: #040677;
   color: var(--contrast-color);
   transition: 0.3s;
   border-radius: 0 4px 4px 0;
 }
 
 .footer .footer-newsletter .newsletter-form input[type=submit]:hover {
-  background: color-mix(in srgb, var(--accent-color), transparent 20%);
+  background: color-mix(in srgb, #1A4BFF, transparent 20%);
 }
 
 .footer .copyright {
@@ -619,7 +618,7 @@ h6 {
   top: calc(50% - 30px);
   left: calc(50% - 30px);
   border: 6px solid #ffffff;
-  border-color: var(--accent-color) transparent var(--accent-color) transparent;
+  border-color: #1A4BFF transparent #1A4BFF transparent;
   border-radius: 50%;
   width: 60px;
   height: 60px;
@@ -646,7 +645,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 99999;
-  background-color: var(--accent-color);
+  background-color: #040677;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -660,7 +659,7 @@ h6 {
 }
 
 .scroll-top:hover {
-  background-color: color-mix(in srgb, var(--accent-color), transparent 20%);
+  background-color: color-mix(in srgb, #1A4BFF, transparent 20%);
   color: var(--contrast-color);
 }
 
@@ -767,12 +766,12 @@ section,
   width: 120px;
   height: 1px;
   display: inline-block;
-  background: var(--accent-color);
+  background: #1A4BFF;
   margin: 4px 10px;
 }
 
 .section-title div {
-  color: var(--heading-color);
+  color: #040677;
   margin: 0;
   margin: 0;
   font-size: 28px;
@@ -825,8 +824,8 @@ section,
 }
 
 .hero h1 span {
-  color: var(--heading-color);
-  border-bottom: 4px solid var(--accent-color);
+  color: #ffffff;
+  border-bottom: 4px solid #1A4BFF;
 }
 
 .hero p {
@@ -838,7 +837,7 @@ section,
 
 .hero .btn-get-started {
   color: var(--contrast-color);
-  background: var(--accent-color);
+  background: #1A4BFF;
   font-family: var(--heading-font);
   font-weight: 400;
   font-size: 15px;
@@ -852,7 +851,7 @@ section,
 
 .hero .btn-get-started:hover {
   color: var(--contrast-color);
-  background: color-mix(in srgb, var(--accent-color), transparent 15%);
+  background: color-mix(in srgb, #1A4BFF, transparent 15%);
   box-shadow: 0 8px 28px rgba(0, 0, 0, 0.1);
 }
 
@@ -865,7 +864,7 @@ section,
 }
 
 .hero .btn-watch-video i {
-  color: var(--accent-color);
+  color: #fff;
   font-size: 32px;
   transition: 0.3s;
   line-height: 0;
@@ -873,11 +872,11 @@ section,
 }
 
 .hero .btn-watch-video:hover {
-  color: var(--accent-color);
+  color: #1A4BFF;
 }
 
 .hero .btn-watch-video:hover i {
-  color: color-mix(in srgb, var(--accent-color), transparent 15%);
+  color: color-mix(in srgb, #1A4BFF, transparent 15%);
 }
 
 .hero .animated {
@@ -985,8 +984,8 @@ section,
   font-weight: 500;
   line-height: 19px;
   padding: 10px 20px;
-  background: color-mix(in srgb, var(--accent-color), transparent 95%);
-  color: var(--accent-color);
+  background: color-mix(in srgb, #1A4BFF, transparent 95%);
+  color: #1A4BFF;
   border-radius: 7px;
   display: inline-block;
 }
@@ -1000,7 +999,7 @@ section,
 }
 
 .about .content .read-more {
-  background: var(--accent-color);
+  background: #040677;
   color: var(--contrast-color);
   font-family: var(--heading-font);
   font-weight: 500;
@@ -1022,7 +1021,7 @@ section,
 }
 
 .about .content .read-more:hover {
-  background: color-mix(in srgb, var(--accent-color), transparent 20%);
+  background: #0d6efd, transparent 20%;
   padding-right: 19px;
 }
 
@@ -1031,50 +1030,57 @@ section,
 }
 
 .about .icon-box {
-  background-color: var(--surface-color);
-  padding: 50px 40px;
-  box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.1);
-  border-radius: 10px;
-  transition: all 0.3s ease-out 0s;
+  background-color: #fff;
+  padding: 40px 25px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0px 10px 40px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* animasi hover agar sedikit melayang */
+.about .icon-box:hover {
+  transform: translateY(-8px);
+  box-shadow: 0px 20px 60px rgba(0,0,0,0.12);
 }
 
 .about .icon-box i {
   width: 80px;
   height: 80px;
+  background: #040677;
   border-radius: 50%;
-  display: inline-flex;
+  display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 24px;
+  margin: 0 auto 20px auto;
   font-size: 32px;
-  line-height: 0;
-  transition: all 0.4s ease-out 0s;
-  background-color: color-mix(in srgb, var(--accent-color), transparent 95%);
-  color: var(--accent-color);
+  color: #fff;
 }
 
 .about .icon-box h3 {
-  margin-bottom: 10px;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 700;
+  margin-bottom: 10px;
 }
 
 .about .icon-box p {
-  margin-bottom: 0;
+  font-size: 14px;
+  color: #666;
+  margin: 0;
 }
 
-.about .icon-box:hover i {
-  background-color: var(--accent-color);
-  color: var(--contrast-color);
+.about .icon-box:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 20px 60px rgba(0, 0, 0, 0.15);
 }
 
+/* tetap pertahankan efek naik turun layout
 .about .icon-boxes .col-md-6:nth-child(2) .icon-box,
 .about .icon-boxes .col-md-6:nth-child(4) .icon-box {
   margin-top: -40px;
-}
+} */
 
 @media (max-width: 768px) {
-
   .about .icon-boxes .col-md-6:nth-child(2) .icon-box,
   .about .icon-boxes .col-md-6:nth-child(4) .icon-box {
     margin-top: 0;
@@ -1084,41 +1090,47 @@ section,
 /*--------------------------------------------------------------
 # Features Section
 --------------------------------------------------------------*/
-.features .features-item {
-  background-color: var(--surface-color);
+.features-item {
+  background: #fff;
+  padding: 40px 25px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0px 10px 40px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  height: 100%;
+}
+
+.features-item i {
+  width: 70px;
+  height: 70px;
+  background: #040677;
+  border-radius: 50%;
   display: flex;
   align-items: center;
-  padding: 20px;
-  transition: 0.3s;
-  border: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
-  position: relative;
+  justify-content: center;
+  margin: 0 auto 15px auto;
+  font-size: 30px;
+  color: #fff;
 }
 
-.features .features-item i {
-  font-size: 32px;
-  padding-right: 10px;
-  line-height: 0;
-}
-
-.features .features-item h3 {
-  font-weight: 700;
-  margin: 0;
-  padding: 0;
-  line-height: 1;
+.features-item h3 {
   font-size: 16px;
+  font-weight: 600;
+  margin: 0;
 }
 
 .features .features-item h3 a {
-  color: var(--heading-color);
+  color: #040677;
   transition: 0.3s;
 }
 
-.features .features-item:hover {
-  border-color: var(--accent-color);
+.features-item:hover {
+  transform: translateY(-8px);
+  box-shadow: 0px 20px 60px rgba(0,0,0,0.12);
 }
 
 .features .features-item:hover h3 a {
-  color: var(--accent-color);
+  color: #1A4BFF;
 }
 
 /*--------------------------------------------------------------
@@ -1126,7 +1138,7 @@ section,
 --------------------------------------------------------------*/
 .stats i {
   background-color: var(--surface-color);
-  color: var(--accent-color);
+  color: #1A4BFF;
   box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.1);
   width: 54px;
   height: 54px;
@@ -1206,11 +1218,83 @@ section,
 .details .features-item ul i {
   font-size: 20px;
   padding-right: 4px;
-  color: var(--accent-color);
+  color: #1A4BFF;
 }
 
 .details .features-item p:last-child {
   margin-bottom: 0;
+}
+
+/*--------------------------------------------------------------
+# Cara Kerja Section
+--------------------------------------------------------------*/
+.step-box {
+  background: #fff;
+  padding: 30px 20px;
+  border-radius: 10px;
+  transition: 0.3s;
+  box-shadow: 0 0 20px rgba(0,0,0,0.05);
+}
+
+.step-icon {
+  width: 70px;
+  height: 70px;
+  margin: auto;
+  margin-bottom: 20px;
+  border-radius: 50%;
+  background: #040677;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.step-icon i {
+  font-size: 28px;
+  color: #fff;
+}
+
+.step-box h4 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #040677;
+}
+
+.step-box p {
+  font-size: 14px;
+  color: #6c757d;
+}
+
+.step-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+/*--------------------------------------------------------------
+# Kategori Section
+--------------------------------------------------------------*/
+
+.kategori-box {
+  background: #fff;
+  padding: 30px 20px;
+  border-radius: 10px;
+  transition: 0.3s;
+  box-shadow: 0 0 20px rgba(0,0,0,0.05);
+}
+
+.kategori-box i {
+  font-size: 40px;
+  color: #040677;
+  margin-bottom: 15px;
+}
+
+.kategori-box h4 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.kategori-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
 }
 
 /*--------------------------------------------------------------
@@ -1352,6 +1436,80 @@ section,
 }
 
 /*--------------------------------------------------------------
+# Mitra Section
+--------------------------------------------------------------*/
+.mitra-card {
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0,0,0,0.05);
+  transition: 0.3s;
+}
+
+.mitra-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.mitra-img {
+  position: relative;
+}
+
+.mitra-img img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.mitra-badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.mitra-info {
+  padding: 15px;
+}
+
+.mitra-info h4 {
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.kategori {
+  font-size: 14px;
+  color: #6c757d;
+}
+
+.mitra-meta {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.rating {
+  color: #ffc107;
+}
+
+.harga {
+  margin-top: 8px;
+  font-size: 14px;
+}
+
+.btn-zonajasa {
+  background-color: #040677;
+  border-color: #040677;
+  color: #fff;
+}
+
+.btn-zonajasa:hover {
+  background-color: #03045c;
+  border-color: #03045c;
+  color: #fff;
+}
+
+/*--------------------------------------------------------------
 # Team Section
 --------------------------------------------------------------*/
 .team .member {
@@ -1413,7 +1571,7 @@ section,
 }
 
 .team .member .social a:hover {
-  color: var(--accent-color);
+  color: #1A4BFF;
 }
 
 .team .member .social i {
@@ -1425,7 +1583,7 @@ section,
 # Pricing Section
 --------------------------------------------------------------*/
 .pricing .pricing-item {
-  background-color: color-mix(in srgb, var(--accent-color), transparent 96%);
+  background-color: color-mix(in srgb, #1A4BFF, transparent 96%);
   padding: 40px 40px;
   height: 100%;
   border-radius: 15px;
@@ -1438,7 +1596,7 @@ section,
 }
 
 .pricing h4 {
-  color: var(--accent-color);
+  color: #040677;
   font-size: 48px;
   font-weight: 700;
   font-family: var(--heading-font);
@@ -1475,9 +1633,9 @@ section,
 }
 
 .pricing .cta-btn:hover {
-  background: var(--accent-color);
+  background: #040677;
   color: var(--contrast-color);
-  border-color: var(--accent-color);
+  border-color: #1A4BFF;
 }
 
 .pricing ul {
@@ -1499,7 +1657,7 @@ section,
 }
 
 .pricing ul i {
-  color: #059652;
+  color: #040677;
   font-size: 24px;
   padding-right: 3px;
 }
@@ -1524,7 +1682,7 @@ section,
   position: absolute;
   top: 15px;
   right: 15px;
-  background-color: var(--accent-color);
+  background-color: #040677;
   color: var(--contrast-color);
   padding: 4px 15px 6px 15px;
   margin: 0;
@@ -1534,9 +1692,9 @@ section,
 }
 
 .pricing .featured .cta-btn {
-  background: var(--accent-color);
+  background: #040677;
   color: var(--contrast-color);
-  border-color: var(--accent-color);
+  border-color: #040677;
 }
 
 @media (max-width: 992px) {
@@ -1599,12 +1757,12 @@ section,
 }
 
 .faq .faq-container .faq-item h3 span {
-  color: var(--accent-color);
+  color: #040677;
   padding-right: 5px;
 }
 
 .faq .faq-container .faq-item h3:hover {
-  color: var(--accent-color);
+  color: #040677;
 }
 
 .faq .faq-container .faq-item .faq-content {
@@ -1627,7 +1785,7 @@ section,
   font-size: 22px;
   line-height: 0;
   transition: 0.3s;
-  color: var(--accent-color);
+  color: #040677;
 }
 
 .faq .faq-container .faq-item .faq-toggle {
@@ -1641,11 +1799,11 @@ section,
 }
 
 .faq .faq-container .faq-item .faq-toggle:hover {
-  color: var(--accent-color);
+  color: #1A4BFF;
 }
 
 .faq .faq-container .faq-active h3 {
-  color: var(--accent-color);
+  color: #040677;
 }
 
 .faq .faq-container .faq-active .faq-content {
@@ -1657,46 +1815,52 @@ section,
 
 .faq .faq-container .faq-active .faq-toggle {
   transform: rotate(90deg);
-  color: var(--accent-color);
+  color: #1A4BFF;
 }
 
 /*--------------------------------------------------------------
 # Contact Section
 --------------------------------------------------------------*/
-.contact .info-item+.info-item {
-  margin-top: 40px;
+.contact .info-item + .info-item {
+  margin-top: 30px;
+}
+
+.contact .info-item {
+  display: flex;
+  align-items: flex-start;
 }
 
 .contact .info-item i {
-  color: var(--accent-color);
-  background: color-mix(in srgb, var(--accent-color), transparent 92%);
-  font-size: 20px;
+  background: #040677;
+  color: #ffffff;
+  font-size: 18px;
   width: 44px;
   height: 44px;
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 50px;
-  transition: all 0.3s ease-in-out;
+  border-radius: 50%;
   margin-right: 15px;
+  flex-shrink: 0;
+}
+
+.contact .info-item div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .contact .info-item h3 {
-  padding: 0;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 700;
-  margin-bottom: 5px;
+  margin-bottom: 4px;
+  color: #040677;
 }
 
 .contact .info-item p {
-  padding: 0;
-  margin-bottom: 0;
   font-size: 14px;
-}
-
-.contact .info-item:hover i {
-  background: var(--accent-color);
-  color: var(--contrast-color);
+  margin: 0;
+  color: #555;
 }
 
 .contact .php-email-form {
@@ -1729,7 +1893,7 @@ section,
 
 .contact .php-email-form button[type=submit] {
   color: var(--contrast-color);
-  background: var(--accent-color);
+  background: #040677;
   border: 0;
   padding: 10px 30px;
   transition: 0.4s;
@@ -1740,9 +1904,18 @@ section,
   background: color-mix(in srgb, var(--accent-color), transparent 25%);
 }
 
+.btn-primary {
+  background-color: #040677;
+  border-color: #040677;
+}
+
+.btn-primary:hover {
+  background-color: #03055c;
+  border-color: #03055c;
+}
+
 /*--------------------------------------------------------------
 # Starter Section Section
 --------------------------------------------------------------*/
-.starter-section {
+/* .starter-section
   /* Add your styles here */
-}
